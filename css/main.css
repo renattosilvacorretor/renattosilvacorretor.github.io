@@ -327,6 +327,10 @@ img.pull-left {
 	.bgrid {
 		padding: 0 15px;
 	}
+	
+	#hero {
+		background: #0F1215 url(../images/hero-bg-min.jpg) no-repeat center;
+	}
 
 }
 
@@ -2612,4 +2616,17 @@ footer .social-links li:first-child {
 	margin-left: 6px;
 	position: relative;
 	right: -5px;
+}
+
+@media (max-width:1024px) {
+	#hero {
+		background: #0F1215 url(../images/hero-bg-min.jpg) no-repeat center;
+	}
+
+	.logo-alamedas {
+		position: relative;
+		left: 50%;
+		margin-left: -130px;
+	}
+
 }
