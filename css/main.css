@@ -2618,15 +2618,20 @@ footer .social-links li:first-child {
 	right: -5px;
 }
 
+.logo-alamedas img{
+	max-width: 240px;
+}
+
 @media (max-width:1024px) {
 	#hero {
 		background: #0F1215 url(../images/hero-bg-min.jpg) no-repeat center;
 	}
 
-	.logo-alamedas {
-		position: relative;
-		left: 50%;
-		margin-left: -130px;
+	.logo-alamedas img{
+		width: 90%;
+		max-width: 240px;
+		display: initial !important;
+		align-self: center;
 	}
 
 }
