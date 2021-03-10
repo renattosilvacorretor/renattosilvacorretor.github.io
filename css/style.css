@@ -1,0 +1,35 @@
+body {
+    background-color: #0067dd;
+    color: #fff;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.8rem;
+}
+
+.avatar-section {
+
+}
+
+.avatar-section img {
+    max-width: 120px;
+}
+
+#links {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: .8rem;
+}
+
+#links a {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin-top: .8rem;
+}
