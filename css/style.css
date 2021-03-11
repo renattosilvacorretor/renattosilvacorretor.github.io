@@ -25,7 +25,7 @@ header h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: .8rem;
+    margin-top: .2rem;
 }
 
 #links a {
@@ -33,4 +33,38 @@ header h1 {
     width: 100%;
     max-width: 400px;
     margin-top: .8rem;
+    color: #ffffff;
+    border-color: #ffffff;
 }
+
+#social {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.8rem;
+}
+
+#social ul {
+    padding: 0;
+    margin-top: 0;
+    list-style: none;
+    display: flex;
+    width: 100%;
+    max-width: 400px;
+    justify-content: space-around;
+}
+
+#social ul li {
+    display: block;
+    line-height: 1;
+}
+
+#social ul li a {
+    font-size: 3.2em;
+    color: rgb(250, 250, 250, 1);
+
+}
+
+
+
