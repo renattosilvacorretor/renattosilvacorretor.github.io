@@ -1,74 +1,92 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-
-    <link rel="shortcut icon" href="favicon.png" >
-
-    <title>Renatto Silva - Corretor de Imóveis</title>
-  </head>
-  <body>
-    <header>
-        <section class="avatar-section">
-            <img src="img/avatar.jpeg" alt="..." class="rounded-circle">
-        </section>
-
-        <h1 class="text-center font-weight-bold" >Renatto Silva</h1>
-        <p class="text-center">
-        🔑 Corretor de imóveis
-        <br />
-	      📌 Casas • Apartamentos • Lotes
-	      <br />
-        🎯 Realizar seu sonho é meu objetivo!
-        </p>
-    </header>
-	<section id="links">
-    <form>
-        <h2>Cadastre-se e para fazer sua simulação:</h2>
-        <label class="">Nome:</label>
-        <input type="text" class="form-control" id="contactName" placeholder="Digite seu nome!">
-
-        <label class="">WhatsApp:</label>
-        <input type="text" class="form-control" id="contactNum" placeholder="(00) 00000-0000">
-
-
-      <a type="submit" id="enviaContatobt" class="btn btn-secondary btn-lg btn-block">Cadastrar</a>
-    </form>
-  </section>
-	<section id="social">
-		<ul>
-			<li>
-				<a href="https://www.facebook.com/corretorrenatto/" class=""><i class="fab fa-facebook social-link"></i></a>
-			</li>
-			<li>
-				<a href="https://www.instagram.com/renattosilvacorretor/" class=""><i class="fab fa-instagram social-link"></i></a>
-			</li>
-			<li>
-				<a href="https://www.linkedin.com/in/renatto-silva-8ab035201" class=""><i class="fab fa-linkedin social-link"></i></a>
-			</li>
-		</ul>
-		<ul>
-			<li>
-				<a href="https://vm.tiktok.com/ZMejNtVyW/" class=""><i class="fab fa-tiktok social-link"></i></a>
-			</li>
-			<li>
-				<a href="https://youtube.com/channel/UCesArpR25-rTDOgCOOUF2zw" class=""><i class="fab fa-youtube social-link"></i></a>
-			</li>
-			<li>
-				<a href="https://twitter.com/RenattoSilvaCI?s=09" class=""><i class="fab fa-twitter social-link"></i></a>
-			</li>
-		</ul>
-	</section>
-
-    <!-- JavaScript; -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="root">
+        <div class="app rounded shadow-lg">
+            <header>
+                <div class="avatar">
+                    <img src="img/avatar.jpeg" alt="..." class="rounded-circle">
+                </div>
+                <div class="descricao">
+                    <h3>Renatto Silva</h3>
+                    <span>🔑 Corretor de imóveis</span>
+                </div>
+            </header>
+            <section id="carrossel">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/produto/01.jpeg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/produto/02.jpeg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/produto/03.jpeg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            <!-- Fim Carrossel -->
+            </section>
+            <section id="formulario">
+                <h4>Cadastre-se e para fazer sua simulação:</h4>
+                <form>
+                    <label class="">Nome:</label>
+                    <input type="text" class="form-control" id="contactName" placeholder="Digite seu nome!">
+                    <label class="">WhatsApp:</label>
+                    <input type="text" class="form-control" id="contactNum" placeholder="(00) 00000-0000">
+                    <a type="submit" id="enviaContatobt" style="font-weight: bold;" class="btn btn-primary btn-lg btn-block">Cadastrar</a>
+                </form>
+            <!--Fim Formulário-->
+            </section>
+            <section id="social">
+                <div>
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/corretorrenatto/" class=""><i class="fab fa-facebook social-link"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/renattosilvacorretor/" class=""><i class="fab fa-instagram social-link"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/renatto-silva-8ab035201" class=""><i class="fab fa-linkedin social-link"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://vm.tiktok.com/ZMejNtVyW/" class=""><i class="fab fa-tiktok social-link"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://youtube.com/channel/UCesArpR25-rTDOgCOOUF2zw" class=""><i class="fab fa-youtube social-link"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/RenattoSilvaCI?s=09" class=""><i class="fab fa-twitter social-link"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            <!-- Fim Social -->
+            </section>
+        <!-- Fim App -->
+        </div>
+        <span id="copy">Renatto Silva - Corretor de imóveis&copy;</span>
+    </div>
+    <script src="main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script src="js/main.js" ></script>
     <script src="https://kit.fontawesome.com/017eb06600.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-  </body>
+</body>
 </html>
