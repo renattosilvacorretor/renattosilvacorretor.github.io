@@ -70,6 +70,7 @@ header .descricao span {
 
 #formulario form label {
     margin-bottom: .3em;
+    color: #786c98;
 }
 
 #formulario form input {
@@ -78,6 +79,15 @@ header .descricao span {
 
 #formulario form a {
     width: 100%;
+    background: #412a7f;
+    font-weight: bold;
+    border-color: #332852;
+}
+
+#formulario form a:hover {
+    color: #412a7f;
+    background: #fff;
+    border-color: #333;
 }
 
 #social {
