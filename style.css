@@ -78,17 +78,23 @@ header .descricao span {
     margin-bottom: .8em;
 }
 
-#formulario form a {
+#formulario form button {
     width: 100%;
     background: #412a7f;
     font-weight: bold;
     border-color: #332852;
 }
 
-#formulario form a:hover {
+#formulario form button:hover {
     color: #412a7f;
     background: #fff;
     border-color: #333;
+}
+
+#formulario form button:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
 }
 
 #social {
@@ -132,4 +138,29 @@ header .descricao span {
 #copy {
     color: #949494;
     padding: .8em;
+}
+
+#load {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #332852;
+    opacity: .9;
+    z-index: 1000;
+}
+
+.alertas {
+    padding: .1rem .5rem;
+}
+
+#sucesso, #falha {
+    display: none;
 }
